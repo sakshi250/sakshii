@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Browse movies</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="horror.html">HORROR</a></li>
+            
+        </ul>
+    </div>
+    <div class="main-body">
+    <div class="movie-section">
+       <a href="https://cineb.net/movie/watch-the-conjuring-2-free-19414"> <img src="horror1.jpeg" alt=""></a>
+    </div>
+    <div class="movie-section">
+      <a href="https://cineb.net/movie/watch-wretch-free-43473">
+      <img src="horror3.jpeg" alt=""></a>
+    </div>
+
+ 
+   </div>
+   <footer id="footer">
+       <div id="copy-rightsection">
+           <h4>&copy; Browse movies</h4>
+       </div>
+   </footer>
+</body>
+</html>
+
+
+//css//
+
+.navbar ul li
+{
+    text-align: center;
+    padding-left: 10vw;
+    margin-left: 10vw;
+    margin-right: 15vw;
+    background: #330e0e;
+    color: rgb(90, 37, 37);
+    border:solid 3px black;
+    
+}
+
+.body
+{
+  background: url(22 22 rgb(4, 104, 104));
+}
+.navbar 
+{
+    background: #0e0d0d;
+    color:lavender;
+    padding: 2vh 3.5vw 2vh 3.5vw; 
+    background: url(22 22 thistle);
+    
+}
+.main-body 
+{
+    margin:5vh 2.5vw 5vh 2.5vw;
+    text-align: center;
+    border: solid 3px #0e0d0d;
+    border-radius: 20px;
+
+}
+.movie-section 
+{
+    display: inline-block;
+    padding-left: 2.5vw;
+}
+.movie-section img 
+{
+    height: 25vh;
+    width: auto;
+}
+#footer 
+{
+    background-color:#0e0d0d ;
+    color:#330e0e;
+    padding:5vh 2.5vw 5vh 2.5vw;
+}
